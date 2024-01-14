@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --dark-teal: #048998;
+    --teal: #3BB4C1;
+    --gray: #E3E3E3;
+    --teal-transparent: #D4FAFE;
+    --white: #F6F5F5;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Nav */
+nav {
+    height: 10vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a.hamburger {
+    width: 64px;
+    height: 64px;
+
+    border-radius: 50%;
+    background-color: var(--gray);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    font-family: 'Quicksand';
+    font-weight: bold;
+    color: var(--dark-teal);
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+}
